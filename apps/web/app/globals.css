@@ -1,0 +1,10 @@
+@import "tailwindcss"; /* Força o Tailwind moderno */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Garante que o fundo e a fonte sejam aplicados à força caso o cache falhe */
+body {
+  background-color: #F8F9FA;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}

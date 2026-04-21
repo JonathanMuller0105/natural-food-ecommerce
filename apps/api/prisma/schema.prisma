@@ -1,0 +1,77 @@
+// --- CONFIGURAÇÃO DE CONEXÃO ---
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// --- TABELAS DO BANCO DE DADOS ---
+
+model Product {
+  id               String      @id @default(uuid())
+  name             String
+  price            Float
+  image            String?
+  isGlutenFree     Boolean     @default(false)
+  isLactoseFree    Boolean     @default(false)
+  isOrganic        Boolean     @default(false)
+  isVegan          Boolean     @default(false)
+  
+  stock            Int         @default(100)
+  promotionalPrice Float?
+  promoEndDate     DateTime?
+
+  orderItems       OrderItem[]
+}
+
+model Customer {
+  id           String   @id @default(uuid())
+  name         String
+  email        String   @unique
+  password     String
+  zipCode      String
+  state        String   
+  city         String   
+  address      String
+  number       String
+  neighborhood String
+  phone        String
+  createdAt    DateTime @default(now())
+}
+
+model Order {
+  id            String      @id @default(uuid())
+  customerName  String
+  customerEmail String?
+  zipCode       String
+  phone         String
+  address       String
+  number        String
+  neighborhood  String
+  total         Float
+  createdAt     DateTime    @default(now())
+
+  status        String      @default("Aguardando Produção") 
+  updatedAt     DateTime    @updatedAt
+
+  // NOVO: Campos de Pesquisa de Satisfação (NPS)
+  npsScore      Int?        // Nota de 1 a 5
+  npsComment    String?     // Comentário do cliente
+
+  items         OrderItem[]
+}
+
+model OrderItem {
+  id        String  @id @default(uuid())
+  quantity  Int
+  price     Float
+
+  orderId   String
+  order     Order   @relation(fields: [orderId], references: [id])
+
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+}
