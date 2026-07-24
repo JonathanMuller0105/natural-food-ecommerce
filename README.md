@@ -24,7 +24,7 @@ Focada em **Alta Conversão (UX/UI)**, a interface do cliente oferece uma jornad
 
 | Página Inicial (Vitrine) | Carrinho Dinâmico & Checkout |
 | :---: | :---: |
-| <!-- CAMPO DE IMAGEM 2: CAPTURA DA HOME PAGE -->(<img width="1564" height="1208" alt="Image" src="https://github.com/user-attachments/assets/be35d9a7-a3f1-425e-bfe1-7920ffbec5aa" />) | <!-- CAMPO DE IMAGEM 3: CAPTURA DO CHECKOUT -->(<img width="1568" height="1208" alt="Image" src="https://github.com/user-attachments/assets/3624b356-8f60-4cdb-a91d-2557f54bb35a" />) |
+| <!-- CAMPO DE IMAGEM 2: CAPTURA DA HOME PAGE --><img width="1564" height="1208" alt="Image" src="https://github.com/user-attachments/assets/be35d9a7-a3f1-425e-bfe1-7920ffbec5aa" /> | <!-- CAMPO DE IMAGEM 3: CAPTURA DO CHECKOUT --><img width="1568" height="1208" alt="Image" src="https://github.com/user-attachments/assets/3624b356-8f60-4cdb-a91d-2557f54bb35a" /> |
 | *Vitrine organizada com foco na visualização rápida e apelo visual dos produtos.* | *Processo de checkout simplificado para reduzir o abandono de carrinho.* |
 
 ### 2. Gestão e Logística (Backoffice)
@@ -33,7 +33,7 @@ Onde a mágica acontece. O painel administrativo gerencia regras de negócio só
 
 | Dashboard Administrativo | Esteira Logística de Produção |
 | :---: | :---: |
-| <!-- CAMPO DE IMAGEM 4: CAPTURA DO DASHBOARD PRINCIPAL --> (<img width="1571" height="1219" alt="Image" src="https://github.com/user-attachments/assets/2656d1b0-2dff-4b06-8371-e783289a9f80" />) | <!-- CAMPO DE IMAGEM 5: CAPTURA DA GESTÃO DE PEDIDOS/LOGÍSTICA -->(<img width="1553" height="1209" alt="Image" src="https://github.com/user-attachments/assets/e956b6e0-2ca2-4ed2-8897-c4965d95394a" />) |
+| <!-- CAMPO DE IMAGEM 4: CAPTURA DO DASHBOARD PRINCIPAL --> <img width="1571" height="1219" alt="Image" src="https://github.com/user-attachments/assets/2656d1b0-2dff-4b06-8371-e783289a9f80" /> | <!-- CAMPO DE IMAGEM 5: CAPTURA DA GESTÃO DE PEDIDOS/LOGÍSTICA -->(<img width="1553" height="1209" alt="Image" src="https://github.com/user-attachments/assets/e956b6e0-2ca2-4ed2-8897-c4965d95394a" /> |
 | *Visão macro do negócio: Vendas, Status e KPIs financeiros em tempo real.* | *Controle operacional: Gestão do ciclo de vida do pedido, do preparo à entrega.* |
 
 ---
